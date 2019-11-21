@@ -31,10 +31,25 @@
         'United States' =>$us,
         'Canada'=>$canada
      );
+     //debug
+     //var_dump($n_america);
 
-     var_dump($n_america);
-     
-     echo json_encode($n_america);
+     //5. Loop and display the data from the final array
+     foreach($n_america as $country=>$list) {
+         //Print the country names
+         echo "<h3>$country</h3>";
+
+         //start a unordered list for each item in the second dimension
+         echo "<ul>";
+            
+         //loop the $list array to create an list item for each
+        foreach($list as $k=>$v) {
+            echo "<li>$k - $v</li>";
+        }
+         //finish the list
+         echo "</ul>";
+     }     
+
      ?>
 </body>
 </html>
