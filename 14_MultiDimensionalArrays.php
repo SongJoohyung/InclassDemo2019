@@ -33,7 +33,7 @@
      );
 
      var_dump($n_america);
-
+     
      echo json_encode($n_america);
      ?>
 </body>
