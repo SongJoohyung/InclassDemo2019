@@ -31,7 +31,7 @@
     <?php
        $age1 = "5";
        $age2 = 5;
-       if(age===$age2) {
+       if($age1===$age2) {
            //true
            echo "age 1 and age 2 are the same";
         } else {

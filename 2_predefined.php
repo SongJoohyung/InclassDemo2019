@@ -24,7 +24,7 @@
 
         //Declare some variables
         $firstname = "Joohyung";
-        $lastname - "Song";
+        $lastname = "Song";
         
         $x = 50;
 

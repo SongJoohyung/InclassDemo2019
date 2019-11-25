@@ -42,12 +42,12 @@
            ?>
            <tr>
            <td colspan="2">
-                <strong>Movies sorted by the Title(assort)</strong>
+                <strong>Movies sorted by the Title(asort)</strong>
            </td>
            </tr>
            <?php
             //2. sort movies by maintaining the original key
-              assort($movies); //also -> sort descending using assort
+              asort($movies); //also -> sort descending using assort
               var_dump($movies);
 
               //redisplay the newly sorted movies in table
@@ -57,7 +57,7 @@
            ?>
            <tr>
            <td colspan="2">
-           <strong>Movies Sorted by Original Key (Ksert)</strong>
+           <strong>Movies Sorted by Original Key (Ksort)</strong>
            </td>
            </tr>
            <?php

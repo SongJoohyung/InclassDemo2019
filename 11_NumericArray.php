@@ -20,13 +20,13 @@
          //$k is the index (key): 0,1,2
          //$v is the value: Peter, Paul, Mary
 
-         echo "<string>$v</strong> is $k <br>";
+         echo "<strong>$v</strong> is $k <br>";
      }
 
      echo "<hr>";
      //We can also return one single element from an array
      //Let's show the second item only
-     echo "The second name in the array is $names[1]</b>";
+     echo 'The second name in the array is $names[1]</b>';
 
      //================================================
      //Alternative way of creating numeric arrays

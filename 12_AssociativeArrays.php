@@ -40,7 +40,7 @@
       //1. Show the provinces in a dropdown list
       echo "<select name='' id=''>";
       foreach($prov as $k=>$v){
-      echo "<option value= '$k'>$v</option>";
+      echo "<option value= '$k'=>$v</option>";
       }  
       echo "</select>";
 

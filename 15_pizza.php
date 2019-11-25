@@ -7,11 +7,12 @@
     <title>Your Pizza</title>
 </head>
 <body>
-    <?php
+    <?php 
         var_dump($_POST);
 
+        //echo $_POST['mushrooms'];
 
-        
+
     ?>
 </body>
 </html>

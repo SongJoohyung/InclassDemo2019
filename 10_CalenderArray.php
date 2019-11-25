@@ -59,12 +59,12 @@
       //debug
       //echo $curDay;
 
-      echo '<select name="days" id="days">';
-      for($days=1;$days<=31;$days++) {
-          if($days==$curDay)  echo "<option value='$days' selected>$days</option>";
-          echo "<option value='$days'>$days</option>";
-      }
-      echo '</select>';
+      //echo '<select name="days" id="days">';
+      //for($days=1;$days<=31;$days++) {
+        //  if($days==$curDay)  echo "<option value='$days' selected>$days</option>";
+          //echo "<option value='$days'>$days</option>";
+      //}
+      //echo '</select>';
                 
       //3. Create the dropdown for YEARS
        $curYear = date("Y"); //2019 , where as "y" 19       
@@ -74,6 +74,8 @@
 
        //create an array using range
        $years = range($curYear, $endYear);
+
+       
 
        echo '<select name="years" id="years">';
        foreach($years as $key=>$value){
